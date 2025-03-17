@@ -1,0 +1,103 @@
+ /* Find My Food Responsive */
+
+ @media screen and (max-width:1024px) {
+   
+ }
+
+ @media screen and (max-width:991px) {
+    .banner-heading h1 {
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 78px;
+
+    }
+ }
+
+
+ @media screen and (min-width:768px) {
+   
+ }
+
+
+ @media screen and (max-width:767px) {
+    .banner-heading h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    
+    .hdr-nav{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .hdr-nav ul{
+        display: none;
+    }
+    .hdr-main, .hdr-nav ul li a {
+        font-size: 10px;
+    }
+    .about-main{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .aboutus-inner{
+        width: 100%;
+    }
+    .aboutus-right-image {
+        text-align: center;
+    }
+    
+    .features-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-inner{
+        width: 100%;
+    }
+    .features-img {
+        text-align: center;
+    }
+    .features-heading {
+        max-width: 100%;
+        padding-top: 0px;  
+    }
+    .ft-heading-img {
+        margin-left: 0;
+    }
+
+    
+    .services-cards {
+        flex-wrap: wrap;
+    }
+    .services-card {
+        width: 100%;
+    }
+
+    .contact-main{
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .contact-single-input {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .cantact-input-main input{
+        width: 100%;
+    }
+    .contact-inner30 {
+        width: 100%;
+    }
+    .contact-inner70 {
+        width: 100%;
+    }
+    .send-btn{
+       text-align: center;
+    }
+ }
+
+ @media screen and (max-width:375px) {
+   
+ }
